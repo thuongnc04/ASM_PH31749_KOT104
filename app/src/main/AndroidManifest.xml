@@ -12,6 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ASM_PH31749"
         tools:targetApi="31">
+
         <activity
             android:name=".MainActivity"
             android:exported="true"

@@ -30,10 +30,12 @@ import androidx.compose.ui.unit.sp
 import androidx.core.graphics.toColorInt
 import androidx.navigation.NavController
 
+
 @Composable
 fun Boarding(navController: NavController) {
     preview(navController)
 }
+
 
 @Preview(showBackground = true)
 @Composable
@@ -41,6 +43,7 @@ private fun preview(navController: NavController? = null) {
     manHinhChao(navController)
 }
 
+//:v
 @Composable
 fun manHinhChao(navController: NavController? = null) {
     val backgroundPainter: Painter = painterResource(id = R.drawable.anh_man_hinh_chao)
